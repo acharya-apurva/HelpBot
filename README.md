@@ -17,3 +17,6 @@ pip install nltk
  python train.py
  python chatbot.py
   ```
+  
+  ## Author
+  Apurva Acharya
