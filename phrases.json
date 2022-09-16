@@ -4,6 +4,7 @@
         "tag": "greeting",
         "patterns": [
           "Hi",
+          "Nice to meet you",
           "Hey",
           "How are you",
           "Is anyone there?",
@@ -18,12 +19,29 @@
         ]
       },
       {
+        "tag": "location",
+        "patterns": [
+          "Where is your physcial location?",
+          "Where is your shop?"
+        
+        ],
+        "botResponses": [
+          "We are located in downtown 15 Tingle Street, Downtown, Ottawa."
+        ]
+      },
+      {
         "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
+        "patterns": [
+          "Bye", 
+          "See you later",
+           "Goodbye",
+           "See you tomorrow"
+          ],
         "botResponses": [
           "See you later, thanks for visiting",
           "Have a nice day",
-          "Bye! Come back again soon."
+          "Bye! Come back again soon.",
+          "Bye, thank you for shopping with us"
         ]
       },
       {
@@ -39,8 +57,8 @@
           "What do you sell?"
         ],
         "botResponses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "We sell smartphones and laptops.",
+          "We have smarphones and laptop."
         ]
       },
       {
@@ -48,6 +66,7 @@
         "patterns": [
           "Do you take credit cards?",
           "Do you accept Mastercard?",
+          "Do you take Visa?",
           "Can I pay with Paypal?",
           "Are you cash only?"
         ],
@@ -67,18 +86,7 @@
           "Delivery takes 2-4 days",
           "Shipping takes 2-4 days"
         ]
-      },
-      {
-        "tag": "funny",
-        "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
-        ],
-        "botResponses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
-        ]
       }
+
     ]
   }

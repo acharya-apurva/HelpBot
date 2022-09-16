@@ -50,7 +50,7 @@ while True:
             if tag == phrase["tag"]:
                 print(f"{bot_name}: {random.choice(phrase['botResponses'])}")
     else:
-        print(f"{bot_name}: I don't undestand you dummy.")
+        print(f"{bot_name}: I am sorry. I do not understand that. ")
 
 
 
